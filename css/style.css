@@ -13,7 +13,8 @@ h3 code { display:block; }
 /* WRAPPER */
 #wrapper { width:800px; margin:40px; }
 
-.topcorner{
+.decoration{
+   margin-bottom:10px;
    top:0;
    left:0;
 }
