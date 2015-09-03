@@ -11,7 +11,7 @@ h3 { font-style:italic; border-left:10px solid #eee; padding:10px 20px; margin:3
 h3 code { display:block; }
 
 /* WRAPPER */
-#wrapper { width:800px; margin:100px auto; }
+#wrapper { width:800px; margin-left:150px auto; margin-top:40px auto;}
 
 .topcorner{
    position:absolute;
