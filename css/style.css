@@ -1,8 +1,16 @@
-/* BASIC RESET */
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
 
-/* HTML ELEMENTS */
-body { background: #1d1d1d; color: #fff; }
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body { 
+   background: #1d1d1d; 
+   color: #fff; 
+   margin: 0 0 100px;
+   padding: 25px;
+}
 h1 { font: bold 65px/60px Helvetica, Arial, Sans-serif; text-align: center; color: #eee; text-shadow: 0px 2px 6px #333; }
 h1 small{ font-size: 20px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; }
 h2 a { display: block; text-decoration: none; margin: 0 0 30px 0; font: italic 45px Georgia, Times, Serif;  text-align: center; color: #bfe1f1; text-shadow: 0px 2px 6px #333; }
@@ -10,7 +18,6 @@ h2 a:hover { color: #90bcd0; }
 h3 { font-style:italic; border-left:10px solid #eee; padding:10px 20px; margin:30px 0; color:#eee; }
 h3 code { display:block; }
 
-/* WRAPPER */
 #wrapper { width:800px; margin:40px; margin-top:10px; }
 
 .decoration{
@@ -19,10 +26,22 @@ h3 code { display:block; }
    left:0;
 }
 
-/* LIST #2 */
 #list2 { width:320px; }
 #list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
 #list2 ol li { }
 #list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
 #list2 ol li p em { display:block; }
 #list2 ol li p em a { text-decoration:none; color:#eee; }
+
+footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;
+    font-family:Helvetica, "ヒラギノ明朝 ProN","Hiragino Mincho ProN";
+}
+
+footer a { text-decoration:none; color:#bfe1f1; }
