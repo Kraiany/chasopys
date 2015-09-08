@@ -20,3 +20,35 @@ h3 code { display:block; }
 #list2 ul li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
 #list2 ul li p em { display:block; }
 #list2 ul li p em a { text-decoration:none; color:#eee; }
+
+marquee a { text-decoration:none; color:orange; font-style:normal; font-family:Arial; font-size:13px; }
+.marquee a { text-decoration:none; color:orange; font-style:normal; font-family:Arial; font-size:13px; }
+
+@media screen and (max-width: 600px) {
+  .nomobile {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .marquee {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-marquee {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
