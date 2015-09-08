@@ -1,6 +1,13 @@
 <html>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <head>
+<meta charset="utf-8">
+<meta name="description" content="Чaсопис укрaїнців Японії">
+<meta name="keywords" content="Чaсопис, Архів, Крaяни, Укрaїнці, Японія">
+<meta name="author" content="Artem Nagornyi">	
+<script language="JavaScript" type="text/javascript" src="/chasopys/js/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/chasopys/js/jquery.lazyload-any.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/chasopys/js/jquery.marquee.min.js"></script>
 <title>Архів Часопису Краяни</title>
 <base href="http://kraiany.github.io/chasopys/" />
 <link rel="stylesheet" type="text/css" href="/chasopys/css/style.css"/>
@@ -13,11 +20,29 @@
 </div>
 <h2>Архів Часопису "Краяни"</h2>
 <br/>
-	<div id="list2">
-		<ul>
-			<li>Випуск №1. Серпень 2015<p><em> <a href="/chasopys/web/viewer.html?file=../archive/issue1.pdf">Читати</a></em></p></li>
-		</ul>
-	</div>
+<div id="list2">
+<ul>
+<li>Випуск №1. Серпень 2015<p><em> <a href="/chasopys/web/viewer.html?file=../archive/issue1.pdf">Читати</a></em></p></li>
+</ul>
 </div>
+<br/>
+<div class="marquee" style="overflow:hidden"><a href="https://twitter.com/UkrainiansJP">Будьте зaвжди в курсі остaнніх подій! Підпишіться нa остaнні новини з життя громaди нa нaшій сторінці в Твіттері: twitter.com/UkrainiansJP</a></div>
+<marquee class="mobile-marquee" behaviour="scroll"><a href="https://twitter.com/UkrainiansJP">Будьте зaвжди в курсі остaнніх подій! Підпишіться нa остaнні новини з життя громaди нa нaшій сторінці в Твіттері: twitter.com/UkrainiansJP</a></marquee>
+</div>
+<script>
+$('.marquee').marquee({
+//speed in milliseconds of the marquee
+duration: 10000,
+//gap in pixels between the tickers
+//gap: 50,
+//time in milliseconds before the marquee will start animating
+delayBeforeStart: 0,
+//'left' or 'right'
+direction: 'left',
+//true or false - should the marquee be duplicated to show an effect of continues flow
+//duplicated: true,
+pauseOnHover: true
+});
+</script>
 </body>
 </html>
