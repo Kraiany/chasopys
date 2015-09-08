@@ -8,7 +8,7 @@ h2 a:hover { color: #90bcd0; }
 h3 { font-style:italic; border-left:10px solid #eee; padding:10px 20px; margin:30px 0; color:#eee; }
 h3 code { display:block; }
 
-#wrapper { width:800px; margin:40px; margin-top:10px; }
+#wrapper { margin:40px; margin-top:10px; }
 
 .decoration{
    margin-bottom:10px;
@@ -16,9 +16,7 @@ h3 code { display:block; }
    left:0;
 }
 
-#list2 { width:320px; }
-#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
-#list2 ol li { }
-#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
-#list2 ol li p em { display:block; }
-#list2 ol li p em a { text-decoration:none; color:#eee; }
+#list2 ul { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ul li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
+#list2 ul li p em { display:block; }
+#list2 ul li p em a { text-decoration:none; color:#eee; }
